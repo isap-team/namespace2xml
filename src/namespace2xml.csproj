@@ -2,15 +2,17 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Copyright>Apache License 2.0 (stop-cran, 2019-2020)</Copyright>
     <Authors>stop-cran &lt;stop-cran@list.ru&gt;</Authors>
     <Company>stop-cran &lt;stop-cran@list.ru&gt;</Company>
     <RepositoryUrl>https://github.com/stop-cran/namespace2xml</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RootNamespace>Namespace2Xml</RootNamespace>
+    <!--
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackAsTool>true</PackAsTool>
+    -->
     <Version>2.0.4</Version>
     <Description>Namespace2xml is a tool for generating, templating and merging files in XML, JSON, YAML and INI formats.</Description>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
