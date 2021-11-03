@@ -8,6 +8,8 @@
     <LangVersion>latest</LangVersion>
 
     <RootNamespace>Namespace2Xml.Tests</RootNamespace>
+
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

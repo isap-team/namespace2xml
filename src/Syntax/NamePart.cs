@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace Namespace2Xml.Syntax
 {
-    [Equals]
+    [Equals(DoNotAddEqualityOperators = true)]
     public sealed class NamePart
     {
         private readonly Lazy<Regex> match;
